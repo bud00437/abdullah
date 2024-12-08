@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عبدالله الصبحي</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+
+        /* إعدادات عامة */
+        body {
+            font-family: 'Tajawal', Arial, sans-serif;
+            background: linear-gradient(135deg, #dcdcdc, #b0b0b0);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* الشريط المتحرك */
+        .ticker {
+            background-color: #607d8b;
+            color: #fff;
+            font-family: 'Lateef', cursive;
+            font-size: 1.4em;
+            padding: 10px 0;
+            overflow: hidden;
+            white-space: nowrap;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .ticker span {
+            display: inline-block;
+            animation: scroll 10s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        /* شريط التبويبات */
+        nav {
+            background-color: #37474f;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #f1f1f1;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #cfd8dc;
+        }
+
+        /* ترويسة الموقع */
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #4a90e2;
+            color: #fff;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* الأقسام */
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            line-height: 1.6;
+        }
+
+        section h2 {
+            color: #4a90e2;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        /* تذييل الصفحة */
+        footer {
+            background-color: #37474f;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.1em;
+            position: relative;
+        }
+
+        .vision2030 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .vision2030 img {
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ticker">
+        <span>مرحبًا بكم في صفحة عبدالله الصبحي - الطموح يجلب النجاح - العمل الإعلامي رسالة سامية!</span>
+    </div>
+    <nav>
+        <a href="#about">عنّي</a>
+        <a href="#achievements">إنجازاتي</a>
+        <a href="#skills">مهاراتي</a>
+        <a href="#ambitions">طموحاتي</a>
+        <a href="#contact">التواصل</a>
+    </nav>
+    <header>
+        <h1>عبدالله الصبحي</h1>
+        <p>طموح لا ينتهي!</p>
+    </header>
+    <section id="about">
+        <h2>نبذة عني</h2>
+        <p>أنا عبدالله الصبحي، طالب في جامعة طيبة - قسم الاتصال والإعلام. أسكن في المدينة المنورة، وأؤمن أن الإصرار والعمل الجاد هما مفتاح النجاح. أطمح إلى تحقيق أثر إيجابي في مجالي الإعلام والصحافة.</p>
+        <p>أسعى دائمًا إلى تطوير نفسي ومهاراتي، وأعتبر التعلم رحلة مستمرة لا تنتهي.</p>
+    </section>
+    <section id="achievements">
+        <h2>إنجازاتي</h2>
+        <p>خلال مسيرتي الأكاديمية، أنجزت العديد من الأهداف:</p>
+        <ul>
+            <li>تخرجت من الثانوية العامة بمعدل ممتاز.</li>
+            <li>شاركت في مشاريع إعلامية طلابية.</li>
+            <li>حصلت على جوائز في مسابقات للتصوير الفوتوغرافي.</li>
+            <li>ساهمت في تنظيم فعاليات ثقافية وتعليمية داخل الجامعة.</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>مهاراتي</h2>
+        <p>أمتلك العديد من المهارات التي أفتخر بها:</p>
+        <ul>
+            <li>التصوير الفوتوغرافي وإعداد اللقطات الإعلامية المميزة.</li>
+            <li>مهارات متقدمة في برامج الأوفيس والتصميم.</li>
+            <li>إتقان تقنيات تحرير الفيديو وإعداد المحتوى الإعلامي.</li>
+            <li>التواصل الفعال وإدارة الوقت.</li>
+        </ul>
+    </section>
+    <section id="ambitions">
+        <h2>طموحاتي</h2>
+        <p>أسعى إلى تحقيق طموحات كبيرة في حياتي المهنية والشخصية:</p>
+        <ul>
+            <li>أن أصبح صحفيًا مؤثرًا يقدم محتوى هادفًا.</li>
+            <li>أن أساهم في تطوير الإعلام الوطني وتعزيز رسالته السامية.</li>
+            <li>أن أكون جزءًا من المبادرات الإعلامية التي تدعم رؤية 2030.</li>
+            <li>أن أعمل على تأسيس منصة إعلامية مبدعة تعكس قيم المجتمع.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>التواصل</h2>
+        <p>يسعدني تواصلكم معي عبر الوسائل التالية:</p>
+        <p>📧 <a href="mailto:bud.alharbi004@gmail.com">bud.alharbi004@gmail.com</a></p>
+        <p>📞 <a href="tel:+966580240057">+966580240057</a></p>
+    </section>
+    <footer>
+        <div class="vision2030">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Emblem_of_Saudi_Arabia.svg" alt="شعار المملكة">
+            <span>2030</span>
+            <span>إبداع</span>
+        </div>
+        <p>شكرًا لزيارتكم!</p>
+    </footer>
+</body>
+</html>
